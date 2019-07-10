@@ -59,4 +59,10 @@ function createBoard() {
 	}
 }
 
+function reset() {
+	document.getElementById('game-board').innerHTML = " ";
+	cardsInPlay = [];
+	createBoard();
+}
+
 createBoard();
